@@ -21,6 +21,7 @@ interface UserProfile {
   name: string;
   age: number;
   gender: string;
+  height: number;
   weight: number;
   activity_level: string;
   role: 'USER' | 'ADMIN';
